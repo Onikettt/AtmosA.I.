@@ -114,7 +114,7 @@ if __name__ == "__main__":
             webbrowser.open(f"{cm}")
 
         elif "send message" in query:
-            kit.sendwhatmsg("+917439897125", "This is a testing message from Atmos AI.", 2, 25)
+            kit.sendwhatmsg("+911234567890", "This is a testing message from Atmos AI.", 2, 25)
 
         elif "play song on youtube" in query:
             kit.playonyt("A Thousand Years")
